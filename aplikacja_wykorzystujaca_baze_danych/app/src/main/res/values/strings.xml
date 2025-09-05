@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">aplikacja_wykorzystujaca_baze_danych</string>
+    <string name="wyswietl_zawartosc_bazy_danych">Wyświetl zawartość bazy danych</string>
+</resources>

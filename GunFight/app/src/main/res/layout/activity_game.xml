@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    tools:context=".GameActivity"
+    android:id="@+id/gameLayout">
+
+    <ImageView
+        android:id="@+id/player2"
+        android:layout_width="28dp"
+        android:layout_height="50dp"
+        android:layout_marginEnd="76dp"
+        android:rotationY="180"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/pixil_frame_0_2" />
+
+    <ImageView
+        android:id="@+id/player1"
+        android:layout_width="28dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="72dp"
+        app:layout_constraintBottom_toBottomOf="@+id/down"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/pixil_frame_0_2" />
+
+    <ImageView
+        android:id="@+id/karoca"
+        android:layout_width="72dp"
+        android:layout_height="77dp"
+        app:layout_constraintBottom_toBottomOf="@+id/gameLayout1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/pixil_frame_0__2_" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/gameLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="visible">
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <Button
+        android:id="@+id/fire"
+        android:layout_width="566dp"
+        android:layout_height="411dp"
+        android:layout_marginStart="160dp"
+        android:layout_marginBottom="4dp"
+        android:textSize="96sp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/down"
+        android:layout_width="150dp"
+        android:layout_height="190dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginBottom="4dp"
+        android:textSize="96sp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/up"
+        android:layout_width="150dp"
+        android:layout_height="212dp"
+        android:layout_marginStart="4dp"
+        android:textSize="96sp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/down"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

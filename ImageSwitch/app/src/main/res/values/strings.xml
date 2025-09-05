@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">ImageSwitch</string>
+    <string name="btn">Next</string>
+    <string name="btn1">Previous</string>
+</resources>

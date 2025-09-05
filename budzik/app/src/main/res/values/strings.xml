@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">budzik</string>
+    <string name="set_alarm">Ustaw Alarm</string>
+    <string name="set_timer">Ustaw Timer</string>
+    <string name="wake_up">Wstawaj śpiochu</string>
+    <string name="odliczanie">Odliczanie w dół</string>
+</resources>

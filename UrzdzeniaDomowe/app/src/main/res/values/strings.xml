@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Urządzenia Domowe</string>
+    <string name="urzadzenia_domowe">Urządzenia Domowe</string>
+    <string name="autor_dominik_gabrysz">Autor: Dominik Gabrysz</string>
+    <string name="odkurzacz">Odkurzacz</string>
+    <string name="pralka">Pralka</string>
+    <string name="zatwierdz">Zatwierdź</string>
+    <string name="wlacz">Włącz</string>
+    <string name="wylacz">Wyłącz</string>
+</resources>

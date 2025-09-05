@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android"
+    android:oneshot="false">
+    <item android:drawable="@drawable/kon1" android:duration="200"/>
+    <item android:drawable="@drawable/kon2" android:duration="200"/>
+    <item android:drawable="@drawable/kon3" android:duration="200"/>
+    <item android:drawable="@drawable/kon4" android:duration="200"/>
+    <item android:drawable="@drawable/kon5" android:duration="200"/>
+    <item android:drawable="@drawable/kon6" android:duration="200"/>
+    <item android:drawable="@drawable/kon7" android:duration="200"/>
+    <item android:drawable="@drawable/kon8" android:duration="200"/>
+    <item android:drawable="@drawable/kon9" android:duration="200"/>
+    <item android:drawable="@drawable/kon10" android:duration="200"/>
+    <item android:drawable="@drawable/kon11" android:duration="200"/>
+    <item android:drawable="@drawable/kon12" android:duration="200"/>
+</animation-list>

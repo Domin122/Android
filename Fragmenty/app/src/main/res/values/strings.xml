@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Fragmenty</string>
+    <string name="hello_blank_fragment1">fragment1</string>
+    <string name="hello_blank_fragment2">fragment2</string>
+</resources>

@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Czcionki</string>
+    <string name="wlasciwosci">Właściwości czcionki</string>
+    <string name="rozmiar">Rozmiar:</string>
+    <string name="next"><![CDATA[>>]]></string>
+    <string name="dobry">Dzień dobry</string>
+    <string name="buenos">Buenos Dias</string>
+
+</resources>
