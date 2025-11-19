@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">zwierzeta</string>
+
+    <string name="title_bird">Ptak</string>
+    <string name="title_cat">Kot</string>
+    <string name="title_dog">Pies</string>
+
+    <string name="descript_bird">Lata, ćwierka i paskudzi auta</string>
+    <string name="descript_cat">Miauczy, pije mleko i trzeba opróźniać kuwetę</string>
+    <string name="descript_dog">Szczeka, obsikuje drzewa, najlepszy przyjaciel człowieka</string>
+</resources>
