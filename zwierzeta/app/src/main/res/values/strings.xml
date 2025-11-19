@@ -4,8 +4,21 @@
     <string name="title_bird">Ptak</string>
     <string name="title_cat">Kot</string>
     <string name="title_dog">Pies</string>
+    <string name="title_fish">Ryba</string>
+    <string name="title_fox">Lis</string>
+    <string name="title_frog">Żaba</string>
+    <string name="title_horse">Koń</string>
+    <string name="title_lion">Lew</string>
+    <string name="title_panda">Panda</string>
 
     <string name="descript_bird">Lata, ćwierka i paskudzi auta</string>
     <string name="descript_cat">Miauczy, pije mleko i trzeba opróźniać kuwetę</string>
     <string name="descript_dog">Szczeka, obsikuje drzewa, najlepszy przyjaciel człowieka</string>
+    <string name="descript_fish">Pływa w wodzie</string>
+    <string name="descript_fox">Sprytny</string>
+    <string name="descript_frog">Ma długi język je owady</string>
+    <string name="descript_horse">Szybko biega</string>
+    <string name="descript_lion">Krół dżungli</string>
+    <string name="descript_panda">Je bambusy</string>
+
 </resources>
