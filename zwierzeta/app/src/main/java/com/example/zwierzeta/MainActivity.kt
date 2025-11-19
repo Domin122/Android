@@ -39,13 +39,25 @@ class MainActivity : AppCompatActivity() {
         val animalTitles = mapOf(
             "bird" to R.string.title_bird,
             "cat" to R.string.title_cat,
-            "dog" to R.string.title_dog
+            "dog" to R.string.title_dog,
+            "fish" to R.string.title_fish,
+            "fox" to R.string.title_fox,
+            "frog" to R.string.title_frog,
+            "horse" to R.string.title_horse,
+            "lion" to R.string.title_lion,
+            "panda" to R.string.title_panda
         )
 
         val animalDescriptions = mapOf(
             "bird" to R.string.descript_bird,
             "cat" to R.string.descript_cat,
-            "dog" to R.string.descript_dog
+            "dog" to R.string.descript_dog,
+            "fish" to R.string.descript_fish,
+            "fox" to R.string.descript_fox,
+            "frog" to R.string.descript_frog,
+            "horse" to R.string.descript_horse,
+            "lion" to R.string.descript_lion,
+            "panda" to R.string.descript_panda
         )
 
         val images = mutableListOf<Int>()
