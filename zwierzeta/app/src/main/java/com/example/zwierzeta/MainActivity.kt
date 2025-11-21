@@ -67,6 +67,25 @@ class MainActivity : AppCompatActivity() {
         val adapter = ItemAdapter(this, images, titles, descriptions)
         listView.adapter = adapter
 
+        var lastClickTime = 0L
+        var lastClickedIndex = -1
+
+        listView.setOnItemClickListener { _, _, position, _ ->
+
+            val currentTime = System.currentTimeMillis()
+
+            if (position == lastClickedIndex && currentTime - lastClickTime < 300) {
+                images.removeAt(position)
+                titles.removeAt(position)
+                descriptions.removeAt(position)
+                adapter.notifyDataSetChanged()
+                lastClickedIndex = -1
+            } else {
+                lastClickedIndex = position
+                lastClickTime = currentTime
+            }
+        }
+
         spinner.onItemSelectedListener = object : AdapterView.OnItemSelectedListener {
             override fun onItemSelected(
                 parent: AdapterView<*>,
